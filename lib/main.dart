@@ -14,8 +14,8 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg'),
+            // image: NetworkImage('https://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
